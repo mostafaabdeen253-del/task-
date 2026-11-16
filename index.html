@@ -1,0 +1,70 @@
+<!--
+  Name: Mostafa Ahmed Atef
+  Student ID: 225105026
+  Course: FT-WEB-101 - Field Training I - Task 1 (Profile page)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mostafa Ahmed - Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mostafa Ahmed</h1>
+    <div class="bar">
+      <span class="bar-name">Mostafa Ahmed</span>
+      <nav class="bar-links">
+        <a href="#about">About</a>
+        <a href="#cards">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <img src="images/me.jpg" alt="Portrait photo of Mostafa Ahmed">
+      <p>Hi! I am a Computer Science student at New Mansoura University.</p>
+      <button id="theme-toggle" type="button">Toggle dark mode</button>
+    </section>
+
+    <section id="cards" class="cards">
+      <div class="card">
+        <h2>Skills</h2>
+        <p>HTML, CSS and JavaScript basics.</p>
+      </div>
+      <div class="card">
+        <h2>Hobbies</h2>
+        <p>Reading, gaming and learning new tech.</p>
+      </div>
+      <div class="card">
+        <h2>Interests</h2>
+        <p>Cybersecurity and web development.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Leave your details</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mostafa Ahmed. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
